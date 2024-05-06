@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../Downloads/scpp"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "exs",
+		"files.associations": {
+			"*.c ": "c"
+		}
+	}
+}
