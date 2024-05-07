@@ -6,17 +6,18 @@ body {
 }
 
 header {
-    background-color: #845ec2;
-    color: #fff;
-    padding: 20px;
+    color: black;
     text-align: center; /* Center the text within the header */
+    margin-top: 40px; 
+    margin-bottom: 20px;;
 }
 
-.title {
+h1 {
     margin: 0;
-    font-size: 32px;
-    font-weight: bold;
-    font-style: italic;
+    padding: 0;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    text-align: center;
 }
 
 main {
@@ -29,6 +30,7 @@ main {
 .post-card {
     background-color: #fff;
     padding: 20px;
+    margin: 0 auto; /* Add this line to center the post cards horizontally */
     margin-bottom: 20px;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     width: 80%;
@@ -36,7 +38,9 @@ main {
     border-radius: 8px;
 }
 
-.title-input, .review-textarea {
+
+.title-input,
+.review-textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
@@ -56,4 +60,11 @@ main {
 
 .submit-button:hover {
     background-color: #769772; /* Darker shade of sage green on hover */
+}
+
+.title {
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: italic;
 }
